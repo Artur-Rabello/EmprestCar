@@ -1,0 +1,1 @@
+{"query":"query { locatario(id: \"u1000000-0000-0000-0000-000000000100\") { nome email locacoes { id valorTotal status veiculo { modelo placa } } } }"}
