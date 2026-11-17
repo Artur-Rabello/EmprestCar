@@ -17,11 +17,11 @@ O núcleo implementado abrange o ciclo de vida de uma locação: a pesquisa de v
 | Integrante | Papel na Defesa | Responsabilidade Principal no Sistema |
 | :--- | :--- | :--- |
 | **Artur Rabello de Oliveira** | Pessoa 1 | Visão Geral do Produto, Personas, ASRs 1 a 5 e Atributos de Qualidade |
-| **Rafael Spaziani** | Pessoa 2 | Caderno EARS, Decomposição C4 Nível 3 (GRASP) e ADR-001 |
-| **Luis Fernando** | Pessoa 3 | API REST Core (`/veiculos`, `/locacoes`), Regras de Negócio e Erros RFC 9457 |
-| **Miguel Ângelo** | Pessoa 4 | Mensageria RabbitMQ, Consumidores de Notificação/Frota, DLQ e Idempotência |
+| **Miguel Ângelo** | Pessoa 2 | Caderno EARS, Decomposição C4 Nível 3 (GRASP) e ADR-001 |
+| **Rafael Spaziani** | Pessoa 3 | API REST Core (`/veiculos`, `/locacoes`), Regras de Negócio e Erros RFC 9457 |
+| **João Teixeira** | Pessoa 4 | Mensageria RabbitMQ, Consumidores de Notificação/Frota, DLQ e Idempotência |
 | **Manassés Zenaro** | Pessoa 5 | Servidor GraphQL, Resolvers HTTP e Otimização do Painel do Locatário |
-| **João Teixeira** | Pessoa 6 | API Gateway (Porta 3000), Autenticação X-API-Key, Rate Limit e Circuit Breaker |
+| **Luis Fernando** | Pessoa 6 | API Gateway (Porta 3000), Autenticação X-API-Key, Rate Limit e Circuit Breaker |
 
 ---
 
@@ -188,7 +188,7 @@ No terminal do demo, `parar pagamentos`, e rode `node testes/painel.js 1` de nov
 
 ## 8. Repositório Git, Vídeo e Uso de IA
 
-* **Repositório Git:** <COLOCAR AQUI O LINK DO REPOSITÓRIO>
+* **Repositório Git:** https://github.com/Artur-Rabello/EmprestCar.git
 * **Vídeo de reserva (Plano B):** <COLOCAR AQUI O LINK DO VÍDEO, SE HOUVER>
 * **Uso de IA:** Gemini / NotebookLM como apoio na estruturação do OpenAPI, na revisão de scripts e na diagramação dos PDFs. Claude (Anthropic) na revisão final do código: nova tentativa e DLQ na mensageria, serviço de pagamentos e rota agregada, Apollo Server 5, scripts de teste das cenas e este README. Todo o conteúdo foi revisado pela equipe.
 
