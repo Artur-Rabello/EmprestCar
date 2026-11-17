@@ -16,12 +16,12 @@ O núcleo implementado abrange o ciclo de vida de uma locação: a pesquisa de v
 
 | Integrante | Papel na Defesa | Responsabilidade Principal no Sistema |
 | :--- | :--- | :--- |
-| **Artur Rabello de Oliveira** | Pessoa 1 | Visão Geral do Produto, Personas, ASRs 1 a 5 e Atributos de Qualidade |
-| **Miguel Ângelo** | Pessoa 2 | Caderno EARS, Decomposição C4 Nível 3 (GRASP) e ADR-001 |
-| **Rafael Spaziani** | Pessoa 3 | API REST Core (`/veiculos`, `/locacoes`), Regras de Negócio e Erros RFC 9457 |
-| **João Teixeira** | Pessoa 4 | Mensageria RabbitMQ, Consumidores de Notificação/Frota, DLQ e Idempotência |
-| **Manassés Zenaro** | Pessoa 5 | Servidor GraphQL, Resolvers HTTP e Otimização do Painel do Locatário |
-| **Luis Fernando** | Pessoa 6 | API Gateway (Porta 3000), Autenticação X-API-Key, Rate Limit e Circuit Breaker |
+| **Artur Rabello de Oliveira** | Pessoa 1 | Visão Geral do Produto, Proposta de valor |
+| **Miguel Ângelo** | Pessoa 2 | Personas e ASRs |
+| **Rafael Spaziani** | Pessoa 3 | Atributos de qualidade, Tabelas de cenário |
+| **João Teixeira** | Pessoa 4 | Diagramas arquiteturais do modelo C4, Padrões GRASP |
+| **Manassés Zenaro** | Pessoa 5 | Caderno EARS |
+| **Luis Fernando** | Pessoa 6 | Decisões de arquitetura (ADR-001), Guardrails. |
 
 ---
 
